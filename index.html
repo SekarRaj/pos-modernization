@@ -1,0 +1,365 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1024" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <title>POS Modernization</title>
+    
+    <meta name="description" content="Edge & Cloud computing on Retail Store" />
+    <meta name="author" content="Rajasekaran Rajaram" />
+
+    <link href="//fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic" rel="stylesheet" />
+
+    <link href="css/impress-demo.css" rel="stylesheet" />
+    <link href="css/impress-common.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="css/presentation.css">
+    
+    <link rel="shortcut icon" href="favicon.png" />
+    <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+</head>
+
+<body class="impress-not-supported">
+
+<div class="fallback-message">
+    <p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.</p>
+    <p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
+</div>
+
+<div id="impress"
+    data-transition-duration="1000"
+    
+    data-width="1024"
+    data-height="768"
+    data-max-scale="3"
+    data-min-scale="0"
+    data-perspective="1000"
+    
+    data-autoplay="10000">
+
+    <div id="intro" class="step" data-x="-5000" data-y="0" data-z="-3500">
+        <p>Cloud & Edge computing in Retail Stores</p> 
+
+        <span>Rajasekaran Rajaram</span>
+    </div>
+
+    <div id="section-1" class="step" data-x="-3000" data-y="0" data-scale="3">
+        <p>1. Store & POS</p>
+    </div>
+
+    <!-- <div id="canvas" class="step">
+        <video autoplay id="video">
+            <source type="video/mp4" src="https://youtu.be/ITjsb22-EwQ">
+        </video> 
+    </div>  -->
+
+    <!-- <div id="canvas" class="step">
+        <iframe width="1134" height="454" src="https://www.youtube.com/embed/ITjsb22-EwQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div> -->
+
+    <div id="overivew" class="step slide" data-x="-3000" data-y="-1500">
+        <div class="center title">Point of Sale - Overview</div>
+
+        <ul>
+            <li>Patented by James Ritty, a saloon owner, named "Ritty’s Incorruptible Cashier"</li>
+            <li>Patent sold to John H. Patterson, established National Cash Register (NCR)</li>
+            <li>Numerous technical advancements and improvements over the century</li>
+            <li>Mechanical (motor) model to AI enabled</li>
+            <li>Bingobox, Amazon Go store, Amazon Fresh Store, Alibaba's Hema Store, 7-Eleven's X-Store</li>
+            <li>Drone Delivery, Autonomous delivery etc.</li>
+            <li>Elevated human experience</li>
+        </ul>
+    </div>
+
+    <!--
+        Problems and Usecase 
+    -->
+
+    <div id="monaco" class="step" data-x="-10000" data-y="-1000">
+        <embed src="images/ncr_self_checkout.jpg" alt="" srcset="" />
+    </div>
+
+    <div id="cloud" class="step" data-x="-2000" data-y="-1500" data-rotate="90" data-scale="1">
+        <p>Cloud computing is <strong>on-demand availability of computer system resources</strong> 
+            especially data storage (cloud storage) & computing power, <br/>
+            without direct active management by the user. - Wikipedia</p>
+    </div>
+
+    <div id="economies" class="step"  data-x="-1600" data-y="-1500" data-rotate="90" data-scale="1">
+        and of course economies of scale.
+    </div>
+
+    <div id="edge" class="step" data-x="-1200" data-y="-1500" data-rotate="180" data-z="0" data-scale="1">
+        <p>Edge computing brings <b class="positioning">computation and storage</b> <b class="rotating">closer</b> to end user</p>
+    </div>
+
+    <div id="improve" class="step" data-x="1400" data-y="-800" data-rotate="180" data-scale="3">
+        <p>improves <b>response time</b> and <span class="bandwidth">bandwidth</span></p>
+    </div>
+
+    <div id="fc" class="step edge-type" data-x="3500" data-y="-800" data-rotate="180">
+        <p><span>Fog Computing</span> - At any point e.g. routers, switches, access points, IoT Gateways</p>
+    </div>
+
+    <div id="mec" class="step edge-type" data-x="3800" data-y="-1200" data-rotate="180">
+        <p><span>Mobile/Multi Access Edge Computing</span> - Radio access n/w such as GSM, LTE</p>
+    </div>
+
+    <div id="cloudlet" class="step edge-type" data-x="4100" data-y="-1600" data-rotate="180">
+        <p><span>CloudLet</span> - Typical cloud servies near mobile users (Datacenter in a box)</p>
+    </div>
+
+    <div id="edge-others" class="step edge-type" data-x="4400" data-y="-2000" data-rotate="180">
+        <p><span>Others</span> Content Delivery N/W, Smart Camera, Pixel Streaming etc.</p>
+    </div>
+
+    <div id="section-3" class="step" data-x="-2000" data-y="2400" data-scale="4">
+        <p>3. Device connectivity</p>
+    </div>
+
+    <div id="connection" class="step" data-x="5500" data-y="-2000" data-rotate="180">
+
+        Serial Communication <br />
+         - Serial Peripheral Interface (SPI) <br />
+         - Inter-Integrated Circuits (I2C) <br />
+         - Universal Asyncronous Receiver/Transmitter (UART)
+        Parallel(LPT) <br />
+        USB
+
+        <br /><br />
+        Ehternet, WiFi, Blueteeth, NFC etc.
+    </div>
+    <!--
+        USB versions and connectors
+    -->
+
+    <div id="connectors" class="step" data-x="-13000" data-y="-1000">
+        <embed class="jpg" src="images/connectors.jpg" alt="" srcset="" />
+    </div>
+
+
+    <div id="usbpcap" class="step" data-x="-13000" data-y="-5000">
+        <embed class="jpg" src="images/usbpcap.png" alt="" srcset="" />
+    </div>
+
+
+    <div id="jpos" class="step" data-x="5500" data-y="-2800" data-rotate="180">
+        OPOS & JavaPOS
+    </div>
+
+
+
+    <!--
+        Simulators
+    -->
+
+    <div id="vkp" class="step" data-x="-16000" data-y="0">
+        <embed class="png" src="images/vkp80_specifications.png" alt="" srcset="" />
+    </div>
+
+    <div id="wireshark" class="step" data-x="6000" data-y="-3200" data-rotate="180">
+        Demo 1: Wireshark Demo
+    </div>
+    <!-- Wireshark and Packet Capture (Demo)
+        HTTP Data Capture 
+        HTTP Packet capture
+        Use case - N/W packet capture (TFTP & DHCP), USB Packet Capture
+    -->
+
+    <div id="section-4" class="step" data-x="-2000" data-y="5000" data-scale="4">
+        <p>4. No touch Installation</p>
+    </div>
+
+    <div id="pxe" class="step" data-x="-12000" data-y="0">
+        <embed class="png" src="images/pxe_boot.png" alt="" srcset="" />
+    </div>
+
+    <div id="uefi" class="step" data-x="-12000" data-y="1000">
+        <embed class="jpg" src="images/uefi.jpg" alt="" srcset="" />
+    </div>
+
+    <div id="osboot" class="step svg" data-x="-10000" data-y="3000">
+        <embed src="images/os_boot.svg" alt="" srcset="" />
+    </div>
+    
+    <!--
+        How PXE works
+    -->
+
+    <div id="section-5" class="step" data-x="-2000" data-y="6600" data-scale="4">
+        <p>5. Implementation</p>
+    </div>
+
+
+    <div id="implementation" class="step svg" data-x="-10000" data-y="4000">
+        <embed src="images/implementation.svg" alt="" srcset="" />
+    </div>
+
+    <!--
+        Vertx
+        Message Processing using Functional Features 
+        State machine w/ Java enums
+    -->
+
+    <div id="section-6" class="step" data-x="-2000" data-y="8200" data-scale="4">
+        <p>6. Future Scope</p>
+    </div>
+
+    <div id="graal" class="step" data-x="5000" data-y="2000" data-z="-3000" data-scale="3">
+        GraalVM & Native Builds
+    </div>
+
+    <div id="wsl" class="step" data-x="5200" data-y="2300" data-rotate-x="-40" data-rotate-y="20" data-scale="3">
+        WSL2 for Windows
+    </div>
+
+    <div id="podman" class="step" data-x="5400" data-y="2600" data-rotate-x="-50" data-rotate-y="40" data-scale="3">
+        Podman, buildah, skopeo
+    </div>
+
+    <div id="dragonfly" class="step" data-x="5600" data-y="2900" data-rotate-x="-60" data-rotate-y="60" data-scale="3">
+        Dragonfly
+    </div>
+
+    <div id="section-7" class="step" data-x="-2000" data-y="9800" data-scale="4">
+        <p>7. Modern Stores</p>
+    </div>
+
+    <div id="amazon-fresh" class="step" data-x="-10000" data-y="6000">
+        <embed class="jpg" src="images/amazon_fresh.jpg" alt="" srcset="" />
+    </div>
+
+    <div id="seven-eleven" class="step" data-x="-10000" data-y="7000">
+        <embed class="jpg" src="images/7-11.jpg" alt="" srcset="" />
+    </div>
+
+    <div id="bingo" class="step svg" data-x="-10000" data-y="8000">
+        <embed src="images/bingo_box.jpg" alt="" srcset="" />
+    </div>
+
+    <div id="thanks" class="step" data-x="-2000" data-y="13000" data-scale="4">
+        <p>Thank you!!!</p>
+    </div>
+
+    <div id="end" class="step" data-x="3000" data-y="1500" data-z="0" data-scale="10">
+    </div>
+
+</div>
+
+<!--
+    This is a UI plugin. You can read more about plugins in src/plugins/README.md.
+    For now, I'll just tell you that this adds some graphical controls to navigate the
+    presentation. In the CSS file you can style them as you want. We've put them bottom right.
+-->
+<div id="impress-toolbar"></div>
+
+<div class="hint">
+    <p>Use a spacebar or arrow keys to navigate. <br/>
+       Press 'P' to launch speaker console.</p>
+</div>
+<script>
+if ("ontouchstart" in document.documentElement) { 
+    document.querySelector(".hint").innerHTML = "<p>Swipe left or right to navigate</p>";
+}
+</script>
+
+<script>
+    var videoStep = document.getElementById("canvas");
+    var video = document.getElementById("video");
+    videoStep.addEventListener("impress:stepenter", function() {
+        video.play();
+    }, false);
+    videoStep.addEventListener("impress:stepleave", function() {
+        video.pause();
+    }, false);
+</script>
+
+<!--
+    
+    Last, but not least.
+    
+    To make all described above really work, you need to include impress.js in the page.
+    I strongly encourage to minify it first.
+    
+    In here I just include full source of the script to make it more readable.
+    
+    You also need to call a `impress().init()` function to initialize impress.js presentation.
+    And you should do it in the end of your document. Not only because it's a good practice, but also
+    because it should be done when the whole document is ready.
+    Of course you can wrap it in any kind of "DOM ready" event, but I was too lazy to do so ;)
+    
+-->
+<script src="js/impress.js"></script>
+<script>impress().init();</script>
+
+<!--
+    
+    The `impress()` function also gives you access to the API that controls the presentation.
+    
+    Just store the result of the call:
+    
+        var api = impress();
+    
+    and you will get three functions you can call:
+    
+        `api.init()` - initializes the presentation,
+        `api.next()` - moves to next step of the presentation,
+        `api.prev()` - moves to previous step of the presentation,
+        `api.goto( stepIndex | stepElementId | stepElement, [duration] )` - moves the presentation to the step given by its index number
+                id or the DOM element; second parameter can be used to define duration of the transition in ms,
+                but it's optional - if not provided default transition duration for the presentation will be used.
+    
+    You can also simply call `impress()` again to get the API, so `impress().next()` is also allowed.
+    Don't worry, it wont initialize the presentation again.
+    
+    For some example uses of this API check the last part of the source of impress.js where the API
+    is used in event handlers.
+    
+-->
+
+</body>
+</html>
+
+<!--
+    
+    Now you know more or less everything you need to build your first impress.js presentation, but before
+    you start...
+    
+    Oh, you've already cloned the code from GitHub?
+    
+    You have it open in text editor?
+    
+    Stop right there!
+    
+    That's not how you create awesome presentations. This is only a code. Implementation of the idea that
+    first needs to grow in your mind.
+    
+    So if you want to build great presentation take a pencil and piece of paper. And turn off the computer.
+    
+    Sketch, draw and write. Brainstorm your ideas on a paper. Try to build a mind-map of what you'd like
+    to present. It will get you closer and closer to the layout you'll build later with impress.js.
+    
+    Get back to the code only when you have your presentation ready on a paper. It doesn't make sense to do
+    it earlier, because you'll only waste your time fighting with positioning of useless points.
+    
+    If you think I'm crazy, please put your hands on a book called "Presentation Zen". It's all about 
+    creating awesome and engaging presentations.
+    
+    Think about it. 'Cause impress.js may not help you, if you have nothing interesting to say.
+    
+-->
+
+<!--
+    
+    Are you still reading this?
+    
+    For real? I'm impressed! 
+    
+    But now, take my advice and take some time off. Make yourself a cup of coffee, tea,
+    or anything you like to drink.
+    
+    Cheers!
+    
+-->
+

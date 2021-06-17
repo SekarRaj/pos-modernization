@@ -1,0 +1,51 @@
+.center {
+    text-align: center;
+}
+
+.title {
+    font-size: 1.5em;
+    margin-top: 1.05em;
+    margin-bottom: 1.05em;
+}
+
+ol, ul {
+    list-style-type: square;
+    list-style-position:initial;
+}
+
+#intro.present p{
+    font-size: 1.2em;
+    padding: 1.1em;
+}
+
+#intro.present span{
+    display: inline-block;
+    font-size: 1em;
+    margin-top: 2em;
+    margin-left: 5em;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.svg {
+    pointer-events: none;
+    opacity: 0;
+    overflow: hidden;
+  }
+
+  .png {
+      width: 100%;
+      border: 1px solid;
+  }
+
+  .jpg {
+      width: 100%;
+  }
+
+  .edge-type {
+      font-size: 30px;
+  }
+
+  .edge-type span{
+    font-size: 60px;
+}
