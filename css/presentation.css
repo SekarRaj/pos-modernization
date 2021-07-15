@@ -33,19 +33,123 @@ ol, ul {
     overflow: hidden;
   }
 
-  .png {
-      width: 100%;
-      border: 1px solid;
-  }
+.png {
+    width: 100%;
+    border: 1px solid;
+}
 
-  .jpg {
-      width: 100%;
-  }
+.jpg {
+    width: 100%;
+}
 
-  .edge-type {
-      font-size: 30px;
-  }
+.edge-type {
+    font-size: 30px;
+}
 
-  .edge-type span{
-    font-size: 60px;
+.edge-type span{
+font-size: 60px;
+}
+
+#me figure figcaption,
+#me pre{
+    font-size: 28px;
+    font-family:cursive;
+}
+
+
+#me pre span.content {
+    color: rgb(41, 135, 39);
+}
+
+#me figure {
+    float: left;
+}
+
+#me figure img {
+    width: 230px;
+    height: 230px;
+}
+
+#first-pos .image {
+    margin-top: 1em;
+    margin-left: 5em;
+    border: 1px solid brown;
+}
+
+#first-ncr-pos .image {
+    width: 300px;
+    margin-top: 1em;
+    margin-left: 5em;
+}
+
+#tech_stack,
+#connection,
+#requirement,
+#problem,
+#usb-if,
+#wireshark,
+#first-ncr-pos p {
+    font-size: 30px;
+}
+
+.center {
+    text-align: center;
+}
+
+.title {
+    font-size: 36px;
+    margin: 0 10px;
+}
+
+#jpos .image {
+    margin-top: 50px;
+    width: 800px;
+    border: 1px solid brown;
+}
+
+#usb_internal {
+    display: flex;
+}
+
+#usb_internal .left {
+    order: 0;
+    margin-right: 50px;
+    width: 500px;
+}
+
+#usb_internal .middle {
+    width: 300px;
+    margin-left: 190px;
+}
+
+#usb_internal .right {
+    order: 1;
+}
+
+
+#usb_connection img {
+    width: 1000px;
+}
+
+#usb_interface img, 
+#usb_class img {
+    width: 800px;
+}
+
+#pos-alternatives{
+    display: flex;
+    flex-direction: row;
+}
+
+#pos-alternatives img {
+    width: 500px;
+    margin-left: 20px;
+}
+
+#java img {
+    width: 100%;
+}
+
+#economies img{
+    width: 50px;
 }

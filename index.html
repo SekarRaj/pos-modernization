@@ -38,13 +38,35 @@
     
     data-autoplay="10000">
 
-    <div id="intro" class="step" data-x="-5000" data-y="0" data-z="-3500">
+    <div id="intro" class="step" data-x="-3500" data-y="-2000" data-z="-3500">
         <p>Cloud & Edge computing in Retail Stores</p> 
 
         <span>Rajasekaran Rajaram</span>
     </div>
 
-    <div id="section-1" class="step" data-x="-3000" data-y="0" data-scale="3">
+
+    <div id="me" class="step" data-x="-5000" data-y="1000">
+        <figure>
+            <img src="images/monkey.png" alt="Monkey"/>
+        </figure>
+       
+        <pre>
+            let sekar = SoftwareEngineer {
+                name : String::from(<span class="content">"Rajasekaran Rajaram {he/him/his}"</span>),
+                company : String::from(<span class="content">"Publicis Sapient"</span>),
+                title : String::from(<span class="content">"Software Development Engineer 3"</span>),
+                email: String::from(<span class="content">"rajasekaran.rajaram@publicissapient.com"</span>)
+            }
+        </pre>
+
+        <pre>
+            let passion = String::from(<span class="content">"Distributed systems, IoT"</span>) 
+            let interest = String::from(<span class="content">"Implementing AI and Robotics in Agriculture"</span>)
+        </pre>
+
+    </div>
+
+    <div id="section-1" class="step" data-x="-3000" data-y="0" data-scale="1">
         <p>1. Store & POS</p>
     </div>
 
@@ -58,7 +80,22 @@
         <iframe width="1134" height="454" src="https://www.youtube.com/embed/ITjsb22-EwQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div> -->
 
-    <div id="overivew" class="step slide" data-x="-3000" data-y="-1500">
+    <div id="first-pos" class="step" data-x="-2000" data-y="1000" data-scale="1">
+
+        <p>James Ritty's Incorruptible register</p>
+        <figure>
+            <img class="image" src="images/incorruptible-cashier.jpg" alt="Ritty’s Incorruptible Cashier">
+        </figure>
+    </div>
+
+    <div id="first-ncr-pos" class="step" data-x="-2000" data-y="2500" data-scale="1">
+        <p>John H. Patterson & National Cash Register's (NCR) first POS</p>
+        <figure>
+            <img class="image" src="images/first_ncr.jpeg" alt="First NCR cashier">
+        </figure>
+    </div>
+
+    <!-- <div id="overivew" class="step slide" data-x="-3000" data-y="-1500">
         <div class="center title">Point of Sale - Overview</div>
 
         <ul>
@@ -70,15 +107,24 @@
             <li>Drone Delivery, Autonomous delivery etc.</li>
             <li>Elevated human experience</li>
         </ul>
-    </div>
+    </div> -->
 
-    <!--
-        Problems and Usecase 
-    -->
+    <div id="pos-alternatives" class="step" data-x="-9000" data-y="-100">
+        <img src="images/says.jpeg" alt="">
+        <img src="images/acrelec.jpg" alt="">
+    </div>
 
     <div id="monaco" class="step" data-x="-10000" data-y="-1000">
         <embed src="images/ncr_self_checkout.jpg" alt="" srcset="" />
     </div>
+
+    <!--
+        Pause and explain context
+
+        Omni
+        Data
+        Realtime
+    -->
 
     <div id="cloud" class="step" data-x="-2000" data-y="-1500" data-rotate="90" data-scale="1">
         <p>Cloud computing is <strong>on-demand availability of computer system resources</strong> 
@@ -88,6 +134,7 @@
 
     <div id="economies" class="step"  data-x="-1600" data-y="-1500" data-rotate="90" data-scale="1">
         and of course economies of scale.
+        <img src="images/dollar.png" alt="">
     </div>
 
     <div id="edge" class="step" data-x="-1200" data-y="-1500" data-rotate="180" data-z="0" data-scale="1">
@@ -107,67 +154,179 @@
     </div>
 
     <div id="cloudlet" class="step edge-type" data-x="4100" data-y="-1600" data-rotate="180">
-        <p><span>CloudLet</span> - Typical cloud servies near mobile users (Datacenter in a box)</p>
+        <p><span>CloudLet</span> - Typical cloud services near mobile users (Datacenter in a box)</p>
     </div>
 
     <div id="edge-others" class="step edge-type" data-x="4400" data-y="-2000" data-rotate="180">
         <p><span>Others</span> Content Delivery N/W, Smart Camera, Pixel Streaming etc.</p>
     </div>
 
-    <div id="section-3" class="step" data-x="-2000" data-y="2400" data-scale="4">
+    <!-- <div id="section-2_1" class="step" data-x="-3000" data-y="1800" data-scale="4">
+        <p>2.1 Problems in Retail Stores</p>
+    </div> -->
+
+    <div id="section-2_1" class="step" data-x="-3000" data-y="1800" data-scale="4">
+        <p>2. Problems & Solution</p>
+    </div>
+
+    <div id="problem" class="step" data-x="500" data-y="-2000" data-scale="1" data-rotate="30">
+        <div class="center title">Issue faced by Retailers</div>
+        <p>- Packaged solution from Vendor</p>
+        <p>- Lack of knowledge on peripherals interaction</p>
+        <p>- Device variations, Vendor variations</p>
+        <p>- High Development cost and slow deployment cycle</p>
+        <p>- No monitoring and diagnostics</p>
+        <p>- Controlled by Vendor's field engineers</p>
+    </div>
+
+    <!-- <div id="package_solution" class="step" data-x="500" data-y="-2000" data-scale="1" data-rotate="30">
+        <p>Packaged solution from Vendor</p>
+    </div>
+
+    <div id="lack_of_knowledge" class="step" data-x="600" data-y="-2800" data-scale="1"  data-rotate="60">
+        <p>Lack of knowledge on peripherals interaction</p>
+    </div>
+
+    <div id="device_variations" class="step" data-x="700" data-y="-3600" data-scale="1"  data-rotate="90">
+        <p>Device variations, Vendor variations</p>
+    </div>
+    
+    <div id="high_cost" class="step" data-x="800" data-y="-4400" data-rotate="30">
+        <p>High Development cost and slow deployment cycle</p>
+    </div>
+
+    <div id="no_monitoring" class="step" data-x="900" data-y="-5000" data-rotate="30">
+        <p>No monitoring and diagnostics</p>
+    </div>
+    
+    <div id="vendor_control" class="step" data-x="1000" data-y="-5800" data-rotate="90">
+        <p>Controlled by Vendor's field engineers</p>
+    </div>  -->
+
+    <!-- <div id="section-2_2" class="step" data-x="-5000" data-y="3400" data-scale="4">
+        <p>2.2 Requirements of retail clients</p>
+    </div> -->
+
+    <div id="requirement" class="step" data-x="-3000" data-y="-3500" data-rotate="180">
+        <div class="center title">Retailer's Requirement</div>
+        <p>- No touch installation</p>
+        <p>- Deployment across various platforms <br/> (Windows/Linux/Android)</p>
+        <p>- Centralized Monitoring and measurement</p>
+        <p>- Support across vendors and connectivity protocols</p>
+        <p>- Offline mode</p>
+        <p>- Elevated user experience</p>
+    </div>
+
+    <div id="implementation" class="step svg" data-x="-10000" data-y="4000">
+        <embed src="images/implementation.svg" alt="" srcset="" />
+    </div>
+
+    <div id="architecture" class="step svg" data-x="-12000" data-y="2000">
+        <embed src="images/architecture.svg" alt="" srcset="" />
+    </div>
+
+    <div id="tech_stack" class="step svg" data-x="-10000" data-y="2000">
+        <div class="center title">Technology Stack</div>
+        <p>- Vertx </p>
+        <p>- Message Processing using Functional Features </p>
+        <p>- State machine w/ Java enums </p>
+        <p>- React with XState for state management </p>
+        <p>- Deployment using go services <br /> (Plan to convert as K8S Operator) </p>
+        <p>- Simulator for device specific features <br /> (For Development/Testing Purposes) </p>
+    </div>
+
+    <div id="lfedge" class="step" data-x="-15000" data-y="-1000">
+        <embed class="jpg" src="images/lfedge.png" alt="" srcset="" />
+    </div>
+
+    <div id="section-3" class="step" data-x="-3000" data-y="5000" data-scale="4">
         <p>3. Device connectivity</p>
     </div>
 
     <div id="connection" class="step" data-x="5500" data-y="-2000" data-rotate="180">
-
+        <div class="center title">Communication with Devices</div>
         Serial Communication <br />
          - Serial Peripheral Interface (SPI) <br />
          - Inter-Integrated Circuits (I2C) <br />
-         - Universal Asyncronous Receiver/Transmitter (UART)
-        Parallel(LPT) <br />
-        USB
+         - Universal Asyncronous Receiver/Transmitter (UART) <br />
+         - Parallel(LPT) <br />
+         - USB
 
         <br /><br />
         Ehternet, WiFi, Blueteeth, NFC etc.
     </div>
-    <!--
-        USB versions and connectors
-    -->
-
-    <div id="connectors" class="step" data-x="-13000" data-y="-1000">
-        <embed class="jpg" src="images/connectors.jpg" alt="" srcset="" />
-    </div>
-
-
-    <div id="usbpcap" class="step" data-x="-13000" data-y="-5000">
-        <embed class="jpg" src="images/usbpcap.png" alt="" srcset="" />
-    </div>
-
 
     <div id="jpos" class="step" data-x="5500" data-y="-2800" data-rotate="180">
-        OPOS & JavaPOS
+        OPOS & JavaPOS Specifications
+        <figure>
+            <img class="image" src="images/javapos.png" alt="JavaPOS Printer snapshot" srcset="">
+        </figure>
     </div>
-
-
-
-    <!--
-        Simulators
-    -->
 
     <div id="vkp" class="step" data-x="-16000" data-y="0">
         <embed class="png" src="images/vkp80_specifications.png" alt="" srcset="" />
     </div>
 
-    <div id="wireshark" class="step" data-x="6000" data-y="-3200" data-rotate="180">
-        Demo 1: Wireshark Demo
-    </div>
-    <!-- Wireshark and Packet Capture (Demo)
-        HTTP Data Capture 
-        HTTP Packet capture
-        Use case - N/W packet capture (TFTP & DHCP), USB Packet Capture
-    -->
+    <div id="usb-if" class="step" data-x="1000" data-y="500">
+        <div class="center title">USB-IF</div>
 
-    <div id="section-4" class="step" data-x="-2000" data-y="5000" data-scale="4">
+        <p>Defines specifications</p>
+        <p>Controls ID assignment</p>
+        <p>Version 3.2 and 2.0 is wide use</p>
+        <p>Version 4 specificaation is ready</p>
+    </div>
+
+    <div id="connectors" class="step" data-x="-13000" data-y="-1000">
+        <embed class="jpg" src="images/usb_connectors.gif" alt="" srcset="" />
+    </div>
+
+    <div id="usb_internal" class="step" data-x="-13000" data-y="-4000">
+        <figure>
+            <img class="left" src="images/usb_internal.svg" alt="" srcset="">
+
+            <img class="middle" src="images/usb_acceptor.png" alt="" srcset="">
+        </figure>
+
+        <figure>
+            <img class="right" src="images/usb_hub.gif" alt="" srcset="">
+        </figure>
+    </div>
+
+    <div id="usb_connection" class="step" data-x="-12000" data-y="-3000">
+        <figure>
+            <img src="images/usb_connect.svg" alt="" srcset="">
+        </figure> 
+    </div>
+
+    <div id="usb_class" class="step" data-x="-11000" data-y="-2000">
+        <figure>
+            <img src="images/usb_class.png" alt="" srcset="">
+        </figure> 
+    </div>
+
+    <div id="usb_interface" class="step" data-x="-10000" data-y="-1000">
+        <figure>
+            <img src="images/usb_interface.png" alt="" srcset="">
+        </figure> 
+    </div>
+
+    <div id="wireshark" class="step" data-x="8500" data-y="2000" data-rotate="180">
+        <div class="center title">Wireshark & Demo</div>
+        <p>GUI and CLI</p>
+        <p>HTTP Data Capture </p>
+        <p>USB Packet capture</p>
+        <p>N/W packet capture (TFTP & DHCP)</p>
+    </div>
+
+    <div id="usbpcap" class="step" data-x="-13000" data-y="-5000">
+        <embed class="jpg" src="images/usbpcap.png" alt="" srcset="" />
+    </div>
+
+    <div id="java" class="step" data-x="-15000" data-y="1000">
+        <img src="images/java_code.png" alt="">
+    </div>
+
+    <div id="section-4" class="step" data-x="-3000" data-y="7100" data-scale="4">
         <p>4. No touch Installation</p>
     </div>
 
@@ -187,7 +346,7 @@
         How PXE works
     -->
 
-    <div id="section-5" class="step" data-x="-2000" data-y="6600" data-scale="4">
+    <!-- <div id="section-5" class="step" data-x="-3000" data-y="9000" data-scale="4">
         <p>5. Implementation</p>
     </div>
 
@@ -196,14 +355,18 @@
         <embed src="images/implementation.svg" alt="" srcset="" />
     </div>
 
-    <!--
-        Vertx
-        Message Processing using Functional Features 
-        State machine w/ Java enums
-    -->
+    <div id="tech_stack" class="step svg" data-x="-10000" data-y="2000">
+        <div class="center title">Technology Stack</div>
+        <p>- Vertx </p>
+        <p>- Message Processing using Functional Features </p>
+        <p>- State machine w/ Java enums </p>
+        <p>- React with XState for state management </p>
+        <p>- Deployment using go services <br /> (Plan to convert as K8S Operator) </p>
+        <p>- Simulator for device specific features <br /> (For Development/Testing Purposes) </p>
+    </div> -->
 
-    <div id="section-6" class="step" data-x="-2000" data-y="8200" data-scale="4">
-        <p>6. Future Scope</p>
+    <div id="section-6" class="step" data-x="-2000" data-y="10700" data-scale="4">
+        <p>5. Future Scope</p>
     </div>
 
     <div id="graal" class="step" data-x="5000" data-y="2000" data-z="-3000" data-scale="3">
@@ -222,8 +385,8 @@
         Dragonfly
     </div>
 
-    <div id="section-7" class="step" data-x="-2000" data-y="9800" data-scale="4">
-        <p>7. Modern Stores</p>
+    <div id="section-7" class="step" data-x="-2000" data-y="12300" data-scale="4">
+        <p>6. Modern Stores</p>
     </div>
 
     <div id="amazon-fresh" class="step" data-x="-10000" data-y="6000">
@@ -231,14 +394,14 @@
     </div>
 
     <div id="seven-eleven" class="step" data-x="-10000" data-y="7000">
-        <embed class="jpg" src="images/7-11.jpg" alt="" srcset="" />
+        <embed class="jpg" src="images/tesco.png" alt="" srcset="" />
     </div>
 
     <div id="bingo" class="step svg" data-x="-10000" data-y="8000">
         <embed src="images/bingo_box.jpg" alt="" srcset="" />
     </div>
 
-    <div id="thanks" class="step" data-x="-2000" data-y="13000" data-scale="4">
+    <div id="thanks" class="step" data-x="-2000" data-y="15000" data-scale="4">
         <p>Thank you!!!</p>
     </div>
 
