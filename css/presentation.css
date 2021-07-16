@@ -153,3 +153,7 @@ font-size: 60px;
 #economies img{
     width: 50px;
 }
+
+#wireshark div {
+    margin-top: 30px;
+}
